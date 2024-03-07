@@ -1,0 +1,41 @@
+Klasa Main:
+Odpowiada za inicjalizację kodu.
+
+Klasa FirstWindow (Pierwsze okno):
+Odpowiada za interfejs użytkownika w początkowej fazie gry Sudoku, takiej jak wybór poziomu trudności, wprowadzanie preferencji itp.
+Może zawierać metody obsługujące interakcję użytkownika, pobieranie danych wejściowych i uruchamianie gry.
+
+Klasa SuokuBoard:
+Odpowiada za generowanie pustej planszy 9x9.
+Może zawierać metody do związanez przyciskami widocznymi na planszy.
+
+Klasa SudokuBoardSolver (Rozwiązywanie planszy Sudoku):
+Służy do rozwiązywania planszy Sudoku przy użyciu odpowiedniego algorytmu.
+Może zawierać metody do wykonywania kroków rozwiązania, sprawdzania poprawności rozwiązania, generowania podpowiedzi itp.
+
+Klasa SudokuGenerator (Generator plansz Sudoku):
+Odpowiada za generowanie nowych plansz Sudoku o różnych poziomach trudności.
+Może zawierać metody do generowania planszy o określonej liczbie wypełnionych komórek, sprawdzania unikalności rozwiązania itp.
+
+Klasa Difficulty (Poziom trudności):
+Reprezentuje poziom trudności gry Sudoku, takie jak łatwy, średni, trudny itp.
+Może zawierać właściwości i metody związane z poziomem trudności, takie jak ustawienie wartości trudności, pobranie wartości trudności itp.
+
+Klasa Hint (Podpowiedź):
+Przechowuje informacje o podpowiedziach w grze Sudoku.
+Może zawierać metody do generowania podpowiedzi, wyświetlania ich na planszy i sprawdzania poprawności podpowiedzi.
+
+Klasa Mistakes (Błędy):
+Służy do śledzenia i zarządzania błędami popełnianymi przez gracza podczas gry Sudoku.
+Może zawierać właściwość przechowującą liczbę popełnionych błędów oraz metody do zwiększania liczby błędów, sprawdzania maksymalnej liczby dozwolonych błędów, wyświetlania informacji o błędach itp.
+
+Klasa SudokuBoardReader (Odczytywanie planszy Sudoku):
+Odpowiada za odczytywanie planszy Sudoku z pliku lub innego źródła danych.
+Może zawierać metody do odczytywania danych planszy i tworzenia obiektu SudokuBoard na podstawie odczytanych danych.
+
+Klasa SudokuBoardSaver (Zapisywanie planszy Sudoku):
+Odpowiada za zapisywanie planszy Sudoku do pliku lub innego źródła danych.
+Może zawierać metody do zapisywania danych planszy na dysku w odpowiednim formacie.
+
+Klasa TablePrinter (Printowanie planszy gry):
+Klasa odpowiada za printowanie planszy gry jako plik nazwie Sudoku.txt.

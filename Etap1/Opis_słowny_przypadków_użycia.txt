@@ -1,0 +1,25 @@
+
+   1.Tworzenie planszy do gry w sudoku:
+    Aby stworzyć planszę do gry w sudoku, można użyć kodu Javy, który tworzy dwuwymiarową tablicę o rozmiarze 9x9. Użytkownik wybiera poziom trudności planszy (łatwy, średni, trudny). 
+    Na podstawie wybranego poziomu trudności plansza wypełnia się losowymi wartościami zgodnie z zasadami gry w sudoku. Użytkownik może też wprowadzić planszę ręcznie lub zaimportować z pliku csv.
+    Stworzona plansza będzie widoczna dla gracza w formie obrazka z którym użytkownik będzie wchodził w interakcje (GUI).
+
+   2.Sprawdzanie poprawności rozwiązania:
+    Aby sprawdzić, czy dane rozwiązanie sudoku jest poprawne, można napisać kod Javy, który przeprowadza serię testów na całej planszy, aby upewnić się, że nie ma powtórzeń w wierszach, kolumnach lub małych kwadratach 3x3. 
+    Jeśli testy nie znajdą błędu program pozwala na kontynuacje łamigłówki. 
+    Można również napisać kod, który zwraca informację o tym, ile pól na planszy zostało już wypełnionych, aby gracze mogli śledzić swoje postępy.
+
+   3.Obsługa interakcji z graczem:
+    Aby umożliwić graczom interakcję z planszą sudoku, można napisać kod Javy, który obsługuje różne typy interakcji, takie jak klikanie pól na planszy, wprowadzanie liczb z klawiatury i wyświetlanie wskazówek i ostrzeżeń.
+    Można również napisać kod, który wyświetla czas gry i liczbę punktów zdobytych przez gracza w zależności od tego, jak szybko rozwiąże on planszę. 
+
+   4.Zapisywanie i odczytywanie stanu gry:
+    Aby umożliwić graczom kontynuowanie gry w późniejszym czasie, można napisać kod Javy, który umożliwia zapisanie stanu gry na dysku twardym w formacie csv i odczytanie go ponownie w przyszłości.
+    Można również napisać kod, który umożliwia graczom zapisanie swoich najlepszych wyników i ich porównanie z wynikami innych graczy. Prócz zapisu w formacie pliku csv program będzie miał też możliwość zapisu obrazka planszy.
+
+   5.Automatyczne rozwiązywanie/pomoc:
+    Solwer powinien umożliwiać użytkownikowi rozwiązywanie sudoku, ewentualnie podpowiadając
+    i wskazując ruchy oraz sygnalizując błędy. Ponadto będzie umożliwiał cofanie ruchów.
+
+
+
